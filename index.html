@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #2C3E50, #34495E);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: #2C3E50;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .card-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #F39C12;
+        }
+        .card-content {
+            margin-bottom: 15px;
+        }
+        .card-label {
+            font-weight: bold;
+        }
+        .card-value {
+            display: block;
+            background-color: #F39C12;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+    <title>Cuentas de empresas</title>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-title">Ember Servicios Amaso SA de CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BanRegio</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">167945860016</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">058680000150385021</label>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-title">Ember Servicios Amaso SA de CV</div>
+                <div class="card-content">
+                    <span class="card-label">Banco:</span>
+                    <label class="card-value">HSBC</label>
+                </div>
+                <div class="card-content">
+                    <span class="card-label">Cuenta:</span>
+                    <label class="card-value">4070457668</label>
+                </div>
+                <div class="card-content">
+                    <span class="card-label">Clabe:</span>
+                    <label class="card-value">021680040704576684</label>
+                </div>
+            </div>
+        <!-- Repite este bloque para cada empresa -->
+        <div class="card">
+            <div class="card-title">Konstuco Services SA de CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">Santander</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">65510386674</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">014680655103866740</label>
+            </div>
+        </div>
+        <!-- Más tarjetas pueden ser añadidas aquí -->
+        <div class="card">
+            <div class="card-title">Konstuco Services SA de CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">Inbursa</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">50070005873</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">036680500700058738</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
