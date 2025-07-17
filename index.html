@@ -93,24 +93,365 @@
 </head>
 <body>
     <div class="card-container">
-        <!-- Tarjeta 1 -->
         <div class="card">
-            <div class="card-title">Ember Servicios Amaso SA de CV</div>
+            <div class="card-title">BESINC BUSINESS & NATIONAL SOLUTIONS S C</div>
             <div class="card-content">
                 <span class="card-label">Banco:</span>
-                <label class="card-value">BanRegio</label>
+                <label class="card-value">BANORTE</label>
             </div>
             <div class="card-content">
                 <span class="card-label">Cuenta:</span>
-                <label class="card-value">167945860016</label>
+                <label class="card-value">446542139</label>
             </div>
             <div class="card-content">
                 <span class="card-label">Clabe:</span>
-                <label class="card-value">058680000150385021</label>
+                <label class="card-value">072580004465421396</label>
             </div>
             <div class="card-content">
                 <span class="card-label">Giro:</span><br>
-                <span class="card-label">Publicidad digital e impresa </span>
+                <span class="card-label">Ofrece servicios de consultoría en áreas como administración, fiscal, legal y recursos humanos.</span>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span><br>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #2C3E50, #34495E);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+            width: 100%;
+        }
+        .card {
+            background-color: #2C3E50;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            width: 220px;
+            padding: 15px;
+            font-size: 0.8em;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-title {
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            color: #F39C12;
+            font-weight: bold;
+        }
+        .card-content {
+            margin-bottom: 10px;
+        }
+        .card-label {
+            font-weight: bold;
+        }
+        .card-value {
+            display: block;
+            background-color: #F39C12;
+            color: #2C3E50;
+            padding: 5px;
+            border-radius: 4px;
+            margin-top: 3px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.9em;
+            word-wrap: break-word;
+        }
+        .action-buttons {
+            display: flex;
+            gap: 5px;
+            margin-top: auto; /* Pushes buttons to the bottom */
+        }
+        .action-button {
+            background-color: #34495E;
+            color: white;
+            border: 1px solid #F39C12;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1em;
+        }
+        .action-button:hover {
+            background-color: #4A6572;
+        }
+    </style>
+    <title>Cuentas de Empresas</title>
+</head>
+<body>
+    <div class="card-container">
+
+        <div class="card">
+            <div class="card-title">BESINC BUSINESS & NATIONAL SOLUTIONS S C</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANORTE</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">446542139</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">072580004465421396</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">BBA160203QC3</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Servicios de consultoría en administración, fiscal, contable, legal y recursos humanos.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">AXES DEL NORTE SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANORTE|AFIRME BLOQUEADA</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">1023864462</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">072580010238644600</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">ANO1705319C7</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Servicios de consultoría administrativa, contable, fiscal, jurídica y de marketing.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">LE DORAT SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">SANTANDER</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">65507599661</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">014580655075996615</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">LDO1810123Z9</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Comercialización, fabricación y distribución de toda clase de productos para la industria y el comercio.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">LA CORDILLERA HL SAPI DE C.V.</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANORTE Y BBVA</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">CHL180626EF6</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Inversión, promoción, desarrollo y construcción de proyectos inmobiliarios.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">MULKIN MANAGER COMPANY SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">AFIRME, BBVA</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">MMA211116I1A</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Prestación de servicios profesionales de consultoría fiscal, contable, legal y administrativa.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">FLETES LOGISTICA SERVICIOS 57 SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANORTE</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">1180530361</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">072580011805303614</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">FLS211116PB3</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Servicios de logística, transporte, almacenamiento y distribución de mercancías.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">SYSMANC COMPANY SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">HSBC</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">4071132393</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">021580040711323933</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">SYS211116E70</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Servicios de tecnologías de la información, desarrollo de software y consultoría empresarial.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">COMERCIALIZADORA BORNIS SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">AFIRME</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">11101008330</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">062580111010083300</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">CBO211206LL7</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Servicios de comercialización, logística, call center, y administración de personal.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">GRAZ DISEÑO Y CONSTRUCCION SAPI DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">AFIRME, BANREGIO, BBVA BLOQUEADA</label>
+            </div>
+             <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">GDC211216VA7</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Inversión, promoción, construcción y arrendamiento de toda clase de bienes inmuebles.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">PROVEEDOR DE INSUMOS MEDICOS DEL NORTE DE MEXICO SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">AFIRME</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">11101008349</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">062580111010083493</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">PIM2112146DA</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Compra y comercialización de medicamentos, productos farmacéuticos y aparatos médicos.</span>
             </div>
             <div class="action-buttons">
                 <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
@@ -118,7 +459,518 @@
             </div>
         </div>
         
-        <!-- Tarjeta 2 -->
+        <div class="card">
+            <div class="card-title">BARCINO PROVEEDORES SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BBVA BLOQUEADA | AFIRME</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">119126010</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">062580001191260100</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">BPR211214T15</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Comercialización y distribución de herramientas, electrodomésticos y maquinaria.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">CONSTRUCCIONES Y EDIFICACIONES BULAN SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BBVA</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">0124514475</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">012580001245144759</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">CEB220331V86</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Desarrollo y supervisión de obras de construcción, públicas y privadas.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">GUSARCO ADVISER SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANREGIO-AFIRME Y BBVA BLOQ.</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">GAD211220MW0</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Prestación de servicios de consultoría fiscal, contable, legal y de administración.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">CAUCA COMERCIALIZACION DE MATERIAS DE MEXICO SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BBVA</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">123656144</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">012580001236561448</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">CCM240312E19</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Compra, venta e importación de equipo de cómputo, papelería y telas para uniformes.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">MANAGER AND LAWER GRAFFT SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">SANTANDER / BBVA / BANORTE</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">MLG240312AH6</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Servicios profesionales de asesoría fiscal, contable, legal y de administración.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">ORBREN CONSULTORES</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BBVA, BANREGIO Y BTE</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">OCO240312E36</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Consultoría profesional en áreas como fiscal, contabilidad, legal y recursos humanos.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">KREATTIV DISEÑO Y PRODUCCION PUBLICITARIA</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANREGIO</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">014-55467-001-7</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">058580145546700178</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">KDP240319HH2</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Organización de eventos, diseño y producción de publicidad, y servicios de fotografía.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">MELATES INDUSTIALES ALGE SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">AFIRME</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">119125766</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">062580001191257669</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">MIA240319KJ4</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Reparación y mantenimiento de maquinaria y equipo comercial e industrial.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">SERVICIO AUTOMOTRIZ ROSS COMPANY DE MONTERREY SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BBVA</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">123253570</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">012580001232535700</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">SAR240419FA9</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Reparación mecánica y eléctrica, hojalatería y pintura para todo tipo de vehículos.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">PLANOS Y DISEÑOS HR DE MONTERREY</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">AFIRME</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">119125855</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">062580001191258558</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">PDH240403SC6</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Desarrollo, construcción y supervisión de obras de construcción públicas y privadas.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">CALIZO SOLUCIONES EN ADMINISTRACION DE PROYECTOS Y NEGOCIOS</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BBVA / BANORTE</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">1309473072</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">07258001309473072</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">CSA240322PSA</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Servicios de consultoría fiscal, contable, legal, administrativa y de recursos humanos.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">ESTRATEGAS DE MERCADOS BTL</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">HSBC</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">EMB2404199Z6</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Asesoría y consultoría en áreas como fiscal, contabilidad, legal, mercadotecnia y finanzas.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">ADMINISTRACIÓN DE NEGOCIOS Y FUERZA LABORAL CERZA</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BBVA/ SANTANDER</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">ANF240403LG3</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Servicios profesionales y técnicos de consultoría en administración, fiscal, legal y contable.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">OR MANTENIMIENTO Y REPARACION DE MAQUINARIA Y HERRAMIENTA</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">AFIRME</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">119125847</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">062580001191258400</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">OMR2406055L8</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Reparación, mantenimiento, fabricación y renta de maquinaria de uso industrial.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">MECANICA AUTOMOTRIZ Y PINTURA ROSCO</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANREGIO</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">014551640010</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">058580145516400107</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">MAP240701JF0</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Reparación mecánica, eléctrica, hojalatería y pintura para todo tipo de vehículos.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">DISEÑOS Y PROYECTOS ARTISTICOS GREG</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANREGIO</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">014-54786-001-3</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">058580145478600100</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">DPA2406262J1</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Diseño y desarrollo de publicidad, servicios de fotografía y video, y desarrollo de sistemas.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">ZAMAN CONSULTORES ASOCIADOS</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BBVA / SANTANDER</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">ZCA240626B51</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Servicios profesionales de asesoría y consultoría fiscal, contable, legal y de administración.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">SISTEMAS TIL DE MONTERREY</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANORTE</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">1301947371</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">072580013019473710</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">STM240903BR0</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Desarrollo de plataformas web, mantenimiento de software y hardware, y capacitación tecnológica.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">GRUPO CIUTADELLA DE MEXICO SAPI DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">AFIRME</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">0119126320</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">062580001191263200</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">GCM241014BW8</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Promoción, desarrollo, construcción y administración de toda clase de proyectos inmobiliarios.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">DEL TORO COMERCIO DE PRODUCTOS Y SERVICIOS DEL NORTE DE AMERICA SA DE CV</div>
+            <div class="card-content">
+                <span class="card-label">Banco:</span>
+                <label class="card-value">BANORTE</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Cuenta:</span>
+                <label class="card-value">474869268</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Clabe:</span>
+                <label class="card-value">072580004748692680</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">RFC:</span>
+                <label class="card-value">TCP1608297N1</label>
+            </div>
+            <div class="card-content">
+                <span class="card-label">Giro:</span><br>
+                <span>Comercialización de productos, subcontratación de personal y representación de empresas.</span>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
+                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
+            </div>
+        </div>
+
         <div class="card">
             <div class="card-title">Konstuco Services SA de CV</div>
             <div class="card-content">
@@ -135,334 +987,75 @@
             </div>
             <div class="card-content">
                 <span class="card-label">Giro:</span><br>
-                <span class="card-label">Servicios administrativos, consultoría contable, fiscal y comercial</span>
+                <span>Servicios administrativos, consultoría contable, fiscal y comercial.</span>
             </div>
             <div class="action-buttons">
                 <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
                 <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
             </div>
         </div>
-
-        <!-- Tarjeta 3 -->
-        <div class="card">
-            <div class="card-title">Konstuco Services SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">Inbursa</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">50070005873</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">036680500700058738</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Servicios administrativos, consultoría contable, fiscal y comercial</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-
-        <!-- Tarjeta 4 -->
-        <div class="card">
-            <div class="card-title">Metales Industriales ALGE SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">Afirme</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">119125766</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">062580001191257669</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Reparación y mantenimiento de maquinaria y equipo comercial</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-
-        <!-- Tarjeta 5 -->
-        <div class="card">
-            <div class="card-title">Servicio Automotriz Ross Company de Monterrey SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">BBVA Bancomer</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">0123253570</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">012580001232535708</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Servicios de reparación y mantenimiento automotriz</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-
-        <!-- Tarjeta 6 -->
-        <div class="card">
-            <div class="card-title">Servicios de limpieza OR SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">BBVA Bancomer</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">0122938480</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">012580001229384807</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Servicios de limpieza de inmuebles, Comercio al por menor de artículos para la limpieza</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-        <!-- Tarjeta 7 -->
-        <div class="card">
-            <div class="card-title">Axes del Norte SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">Banorte</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">1023864462</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">072580010238644624</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Servicios y/o venta de productos por medios electrónicos, telefónicos y en línea. Servicios de Call Center</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-        <!-- Tarjeta 8 -->
-        <div class="card">
-            <div class="card-title">Graz Diseño y Construcción SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">Afirme</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">000119123437</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">062580001191234378</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Construcciones de ingeniería civil u obra pesada, Construcción de obras de urbanización , Construcción de inmuebles comerciales, institucionales y de servicios</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-        <!-- Tarjeta 9 -->
-        <div class="card">
-            <div class="card-title">Graz Diseño y Construcción SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">BanRegio</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">014556040011</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">058580145560400111</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Construcciones de ingeniería civil u obra pesada, Construcción de obras de urbanización , Construcción de inmuebles comerciales, institucionales y de servicios</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-        <!-- Tarjeta 10 -->
-        <div class="card">
-            <div class="card-title">Fletes y Logística Servicios 57 SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">Banorte</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">1180530361</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">072580011805303614</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Logística</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-        <!-- Tarjeta 11 -->
-        <div class="card">
-            <div class="card-title">Kreattiv Diseño y Produccion Publicitaria SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">Banregio</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">014554670017</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">058580145546700178</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Agencias de publicidad, Diseño gráfico, Organización de excursiones y paquetes turísticos para agencias de viajes</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-        <!-- Tarjeta 12 -->
-        <div class="card">
-            <div class="card-title">Sysmanc Company SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">HSBC</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">4071132393</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">021580040711323933</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Consultoría de computación, venta de equipos de tecnología, desarrollo de Software</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
-        <!-- Tarjeta 13 -->
-        <div class="card">
-            <div class="card-title">Metapoio Diseño y Construcciones SA de CV</div>
-            <div class="card-content">
-                <span class="card-label">Banco:</span>
-                <label class="card-value">BanRegio</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Cuenta:</span>
-                <label class="card-value">054904970011</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Clabe:</span>
-                <label class="card-value">058580549049700116</label>
-            </div>
-            <div class="card-content">
-                <span class="card-label">Giro:</span><br>
-                <span class="card-label">Venta de tangibles para la construcción, Jardinería, Fumigaciones, Construcción de obra civil</span>
-            </div>
-            <div class="action-buttons">
-                <button class="action-button" onclick="copyInfo(this)" aria-label="Copiar información">&#x2398;</button>
-                <button class="action-button" onclick="shareInfo(this)" aria-label="Compartir información">&#x1F517;</button>
-            </div>
-        </div>
+        
     </div>
 
     <script>
     function copyInfo(button) {
-    const card = button.closest('.card');
-    let info = '';
+        const card = button.closest('.card');
+        const title = card.querySelector('.card-title').textContent.trim();
+        const contents = card.querySelectorAll('.card-content');
+        let info = title + "\n";
 
-    info += card.querySelector('.card-title').textContent.trim() + "\n";
-    card.querySelectorAll('.card-content').forEach(content => {
-        let label = content.querySelector('.card-label').textContent.trim();
-        if (label !== 'Giro:') {
-            let value = content.querySelector('.card-value')?.textContent.trim();
-            info += label + (value ? value : '') + "\n";
-        } else {
-            let text = content.querySelector('.card-label').nextSibling.textContent.trim();
-            info += text + "\n";
-        }
-    });
-    
-    navigator.clipboard.writeText(info).then(() => {
-        alert('Información copiada al portapapeles');
-    }).catch(err => {
-        alert('Error al copiar la información');
-    });
-}
-
-function shareInfo(button) {
-    const card = button.closest('.card');
-    let info = '';
-
-    info += card.querySelector('.card-title').textContent.trim() + "\n";
-    card.querySelectorAll('.card-content').forEach(content => {
-        let label = content.querySelector('.card-label').textContent.trim();
-        if (label !== 'Giro:') {
-            let value = content.querySelector('.card-value')?.textContent.trim();
-            info += label + (value ? value : '') + "\n";
-        } else {
-            let text = content.querySelector('.card-label').nextSibling.textContent.trim();
-            info += text + "\n";
-        }
-    });
-
-    if (navigator.share) {
-        navigator.share({
-            title: "Datos Bancarios",
-            text: info,
-        }).catch(err => {
-            console.error("Error sharing:", err);
+        contents.forEach(content => {
+            const labelElement = content.querySelector('.card-label');
+            const valueElement = content.querySelector('.card-value');
+            
+            if (labelElement && valueElement) {
+                const label = labelElement.textContent.trim();
+                const value = valueElement.textContent.trim();
+                info += `${label} ${value}\n`;
+            } else if (labelElement && labelElement.textContent.trim() === 'Giro:') {
+                const giroText = content.querySelector('span:not(.card-label)').textContent.trim();
+                info += `Giro: ${giroText}\n`;
+            }
         });
-    } else {
-        alert("La función de compartir no está disponible en este navegador.");
+
+        navigator.clipboard.writeText(info).then(() => {
+            alert('Información copiada al portapapeles');
+        }).catch(err => {
+            alert('Error al copiar la información');
+        });
     }
-}
+
+    function shareInfo(button) {
+        const card = button.closest('.card');
+        const title = card.querySelector('.card-title').textContent.trim();
+        const contents = card.querySelectorAll('.card-content');
+        let info = title + "\n";
+
+        contents.forEach(content => {
+            const labelElement = content.querySelector('.card-label');
+            const valueElement = content.querySelector('.card-value');
+
+            if (labelElement && valueElement) {
+                const label = labelElement.textContent.trim();
+                const value = valueElement.textContent.trim();
+                info += `${label} ${value}\n`;
+            } else if (labelElement && labelElement.textContent.trim() === 'Giro:') {
+                 const giroText = content.querySelector('span:not(.card-label)').textContent.trim();
+                info += `Giro: ${giroText}\n`;
+            }
+        });
+
+        if (navigator.share) {
+            navigator.share({
+                title: "Datos Bancarios",
+                text: info,
+            }).catch(err => {
+                console.error("Error sharing:", err);
+            });
+        } else {
+            alert("La función de compartir no está disponible en este navegador.");
+        }
+    }
     </script>
 </body>
 </html>
